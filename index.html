@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>Forms</header>
+    <form action="" method="get">
+        <section class="form1">
+            <fieldset>
+                    <legend>Personal Data</legend>
+                    <div>
+                        <h4>First name:</h4>
+                        <label for="first_name"></label>
+                        <input type="text" id="first_name" name="first_name">
+                    </div>
+                    <div>
+                        <h4>Last name:</h4>
+                        <label for="last_name"></label>
+                        <input type="text" id="last_name" name="last_name">
+                    </div>
+                    <div>
+                        <h4>Street:</h4>
+                        <label for="street"></label>
+                        <input type="text" id="street" name="street">
+                    </div>
+                    <div>
+                        <h4>Zipcode:</h4>
+                        <label for="zip"></label>
+                        <input type="text" id="zip" name="zip">
+                    </div>
+                    <div>
+                        <h4>City:</h4>
+                        <label for="city"></label>
+                        <input type="text" id="city" name="city">
+                    </div>
+                    <div>
+                        <h4>Phone:</h4>
+                        <label for="phone"></label>
+                        <input type="text" id="phone" name="phone">
+                    </div>
+                    <div>
+                        <h4>Email:</h4>
+                        <label for="email"></label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div>
+                        <h4>Comments:</h4>
+                        <label for="comment"></label>
+                        <textarea name="comment" id="comment" cols="67" rows="5" placeholder="Tell us more about important colors, etc."></textarea>
+                    </div>
+            </fieldset>
+        </section>
+        
+        
+        <section class="form2">
+            <fieldset>
+                    <legend>Products</legend>
+                    <div>
+                        <h4>Web Design:</h4>
+                        <input type="radio" name="web_design" id="individual">
+                        <label for="individual">Individual</label>
+                        <input type="radio" name="web_design" id="template">
+                        <label for="Template">Template</label>
+                    </div>
+                    <div>
+                        <h4>Web Development:</h4>
+                        <div>
+                            <input type="checkbox" name="html" id="html">
+                            <label for="html">HTML & CSS</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="js" id="js">
+                            <label for="js">JavaScript</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="mongo_db" id="mongo_db">
+                            <label for="mongo_db">MongoDB</label>
+                        </div>
+                    </div>
+                    <div>
+                        <h4>Project Start:</h4>
+                        <label for="project_start"></label>
+                        <input type="date" name="project_start" id="project_start">
+                    </div>
+                    <div>
+                        <h4>Project End:</h4>
+                        <label for="project_end"></label>
+                        <input type="date" name="project_end" id="project_end">
+                    </div>
+                    <div>
+                        <h4>Category:</h4>
+                        <label for=""></label>
+                        <select name="personal" id="personal">
+                            <option value="personal" selected>Personal</option>
+                        </select>
+                    </div>
+            </fieldset> 
+            <button type="submit">Order our services</button>
+        </section>
+    </form>
+</body>
+</html>
